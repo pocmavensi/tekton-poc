@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        return "It works ✅ Java 21";
+        return "1. It works ✅ Java 	2. CI/CD Works";
     }
 }
