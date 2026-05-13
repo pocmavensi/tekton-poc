@@ -1,1 +1,5 @@
 target/
+minikube-linux-amd64
+pipeline.yml
+pipelinerun.yml
+*.tar.gz

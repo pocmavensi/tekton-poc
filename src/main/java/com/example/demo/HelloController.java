@@ -5,9 +5,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-
     @GetMapping("/")
     public String hello() {
-        return "1. It works ✅ Java 	2. CI/CD Works";
+        return "It works ✅ Java 21 CI Works. Testing for SonarQube!!!";
     }
 }
