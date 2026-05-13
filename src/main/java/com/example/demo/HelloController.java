@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/")
     public String hello() {
-        return "It works ✅ Java 21 CI Works. Testing for SonarQube!!!";
+        return "8080 works ✅ Java 21 CI Works. Testing for SonarQube!!!";
     }
 }
